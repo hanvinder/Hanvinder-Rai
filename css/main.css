@@ -464,7 +464,16 @@ transform: rotate(-40deg);
 -moz-transform: rotate(-40deg);
 -webkit-transform: rotate(-40deg);
   background:white;
-  margin:39px 9px
+  margin:39px 9px;
+   animation:abre 1.8s alternate infinite;
+  -moz-animation:abre 1.8s alternate infinite;
+  -webkit-animation:abre 1.8s alternate infinite;
+}
+@keyframes abre{
+ 0%,25%{opacity:1}
+  35%{opacity: 0}
+  50%{opacity:1;}
+  100%{opacity:1}
 }
 .eye::before{
   content:"";
@@ -474,6 +483,7 @@ transform: rotate(-40deg);
   border-radius:100%;
   background:#0b5e90;
     margin: 7px 5px
+	
 }
 .eye::after{
   content:"";
@@ -506,7 +516,10 @@ transform: rotate(-55deg);
 -moz-transform: rotate(-55deg);
 -webkit-transform: rotate(-55deg);
   background:white;
-  margin:39px 65px
+  margin:39px 65px;
+   animation:abre 1.8s alternate infinite;
+  -moz-animation:abre 1.8s alternate infinite;
+  -webkit-animation:abre 1.8s alternate infinite;
 }
 .eye2::before{
   content:"";
