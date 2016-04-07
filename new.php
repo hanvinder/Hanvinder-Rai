@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/app.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="js/main.js"></script>
 	<title>Hanvinder</title>
 </head>
 
@@ -74,7 +75,7 @@
 
 <p>Designed and coded by<a id="link" href="index.html " title="About Me "> Hanvinder Singh Rai</a><p>
 	</footer>
-	<script src="js/main.js"></script>
+	
 </body>
 
 </html>
