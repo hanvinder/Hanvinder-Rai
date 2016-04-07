@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+/*Navigation*/
+
+nav {
+  font:700 16px/60px 'Lato', sans-serif;
+  width:90%;
+  margin:30px auto 0 auto;
+  background:#001f3f;
+  
+  
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  border-radius:10px;
+}
+
+nav ul {
+  height:60px;
+  overflow:hidden;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  width:25%;
+  float:left;
+  text-align:center;
+}
+
+nav ul li a{
+	text-decoration: none;
+}
+
+
+.item-container {
+  top: 0;
+  position:relative;
+  height:120px;
+  cursor:pointer;
+  -webkit-transition: all 0.3s ease;
+	-moz-transition:  	all 0.3s ease;
+	-o-transition:  	  all 0.3s ease;
+	transition: 		    all 0.3s ease;
+}
+
+.item-container:hover{
+  top:-60px;
+}
+
+.item-top,
+.item-bottom {
+  height:60px;
+  position:relative;
+}
+
+.item-top {
+  color:#f2b632;
+ 
+}
+
+.item-bottom {
+  background:#189cb8;
+  color:#ffffff;
+}
+#active{
+	color: #e9ece5;
+	    /*background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJ0lEQVQIW2Nk7Dj9X2xbBQMMMIrbOf+H8xgYGOACr7w6GEAqMVQAALrDC2GRBi57AAAAAElFTkSuQmCC
+    ) repeat;*/
+background: #193552;
+}
+#mainframe.normal
+{
+    opacity: 1.0;
+}
+#mainframe.faded
+{
+    opacity: 0.0;
+}
+#mainframe
+{
+        /* Firefox */
+        -moz-transition-property: opacity;
+        -moz-transition-duration: 3s;
+        /* WebKit */
+        -webkit-transition-property: opacity;
+        -webkit-transition-duration: 3s;
+        /* Standard */
+        transition-property: opacity;
+        transition-duration: 3s;
+}
