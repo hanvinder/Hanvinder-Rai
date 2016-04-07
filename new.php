@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/app.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<title>porfolio</title>
+	<title>Hanvinder</title>
 </head>
 
   
@@ -46,7 +46,7 @@
     <li>
 		<a  href="contact.html"  >
       <div class="item-container ">
-        <div id="active" class="item-top ">Contact</div>
+        <div  class="item-top ">Contact</div>
         <div class="item-bottom">Contact</div>
       </div>
 		</a>
