@@ -188,6 +188,10 @@ span{
 	font-size: 1.4em;
 	text-decoration: underline;
 }
+img.displayed {
+    display: block;
+    margin: 0 auto;
+	}
 /*Footer*/
 footer{
 	background: #001f3f;
@@ -255,6 +259,7 @@ div.social{
 	text-align: center;
 	
 }
+
 /*form*/
 .bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
  color: black
@@ -287,10 +292,12 @@ a.person-contact:hover{
  background-image: -o-radial-gradient(top, circle cover, #189cb8 0%, #193552 80%);
  background-image: radial-gradient(top, circle cover, #189cb8 0%, #193552 80%);
 	 color: #fff;
+		
 	 text-shadow: 1px 1px 1px black;
 	width: 70%;
 	margin: 60px auto 0;
 	padding: 5%;
+	line-height: 1.5;
 	border-radius: 5px;
   -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
@@ -298,7 +305,7 @@ a.person-contact:hover{
   border: 1px solid rgba(255, 255, 255, 0.3);
   font-size: 1.4em;
   text-align: center;
-  
+  font-family: 'Verdana', sans-serif; font-size: 16px; line-height: 26px; text-indent: 30px; 
 	}
 
 /*Skills*/
@@ -919,9 +926,9 @@ background-image: url("http://www.transparenttextures.com/patterns/black-scales.
 position:absolute;
 -webkit-border-radius: 0px 412px 0px 412px;
 border-radius: 0px 412px 0px 412px; 
-transform: rotate(-101deg);
--moz-transform: rotate(-101deg);
--webkit-transform: rotate(-101deg);
+transform: rotate(-201deg);
+-moz-transform: rotate(-201deg);
+-webkit-transform: rotate(-201deg);
 background:rgba(11,	94,	144,.8);
 height: 264px;
     width: 140px;
@@ -935,9 +942,9 @@ height: 264px;
 position:absolute;
 -webkit-border-radius: 412px 0px 412px 0px;
 border-radius:  412px 0px 412px 0px;
-transform: rotate(101deg);
--moz-transform: rotate(101deg);
--webkit-transform: rotate(101deg);
+transform: rotate(201deg);
+-moz-transform: rotate(201deg);
+-webkit-transform: rotate(201deg);
 
 
 background:rgba(11,	94,	144,.8);

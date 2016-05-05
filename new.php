@@ -18,6 +18,7 @@
   
 <body>
 	<header>
+		<img class="displayed" src="img/logo2.png" alt="Logo" width="187px" height="144"/>
   <nav>
   <ul>
     <li>

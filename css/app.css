@@ -90,3 +90,8 @@ background: #193552;
         transition-property: opacity;
         transition-duration: 3s;
 }
+
+.floater{
+  position: fixed;
+				margin: 0 auto;
+}
